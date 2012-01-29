@@ -1,0 +1,27 @@
+NOTE:  These are probably incomplete and not sufficiently tested
+
+Tools required:
+SVN
+MySQL
+Ruby and Rails
+Mongrel
+
+Assumes these are all installed, and that a mysql server is running.
+
+To get the source, develop and run, do the following:
+1.  Get the source from svn repository by doing:
+    svn co svn+ssh://user@72.249.22.57/home/svn/sites/nv/trunk
+
+(The rest assumes you are 'in' the trunk directory)
+
+2.  Create the MySQL dev database by running the db/create-db.dev.sql
+    script.  Then run the db/create.sql script to create the tables.
+
+3.  Start the server via:
+    [sudo] mongrel_rails start [-C config/mongrel.yml]
+
+4.  Test the site via browser.  The full url for the site running
+on a localhost should be something like http://localhost:3000/main
+depending on configuration (can be defined in config/mongrel.yml)
+
+

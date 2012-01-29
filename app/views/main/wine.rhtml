@@ -1,0 +1,73 @@
+<div id="main_col">
+  <div class="main_col_section_envelope" id="wine_section">
+    <div class="main_col_section_content" id="home_section_main">
+      <div class="shadow">
+        <div class="section">
+          <div class="section_title" id="wine_section_title">Wine</div>
+          <div class="content">
+            <h2>Natali Vineyards Wine Price List<br />
+            </h2>
+            Wines are produced and bottled in Cape May County, NJ
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_col_section_content_ex">
+      <div class="shadow">
+        <div class="section">
+          <div class="content">
+            <table class="price_list">
+              <tbody>
+                <tr>
+                  <th>
+                    <h1>Wines</h1>
+                  </th>
+                  <td>
+                    <form action='/main/wine' method='post'>
+                    <%= choices = [["All", ""]] + @tags
+                        select("tag", "id", choices, {}, {:onchange => "submit();"}) %>
+                    </form>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="price_list">
+              <tbody>
+                <% for product in @products
+                   -%>
+                <tr>
+                  <td>
+                    <%= product.name %><% unless product.descr == nil or product.descr.empty? -%>, <%= product.descr %><% end -%>
+                  </td>
+                  <td>$<%= sprintf("%0.2f", product.price) %></td>
+                </tr>
+                <% end -%>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="notes_col">
+  <div class="notes_col_section_envelope">
+    <div class="shadow">
+      <div class="section" id="sales_section">
+        <div class="section_title" id="sales_section_title">Info</div>
+        <div class="content">
+          <p class="notes-text"><%= @wine_info %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notes_col_section_content_item_img">
+    <div class="shadow">
+      <div class="section">
+        <div class="item_img_content">
+          <img class="item_img" src="/images/wine_medals.jpg" alt="Red Wine" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

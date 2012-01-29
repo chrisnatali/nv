@@ -1,0 +1,54 @@
+<div id="main_col">
+  <div class="main_col_section_envelope" id="events_section">
+    <div class="main_col_section_content" id="home_section_main">
+      <div class="shadow">
+        <div class="section">
+          <div class="section_title" id="events_section_title">Events</div>
+          <div class="content">
+            <h2>Events List</h2>
+            Join us for the following upcoming events
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_col_section_content_ex">
+      <div class="shadow">
+        <div class="section">
+          <div class="content">
+            <% if @events.size > 0 -%>
+            <% for event in @events -%>
+            <h2><%= event.name %></h2>
+            <%= event.date.strftime("%A, %B %d") %><br/>
+            <% unless event.descr == nil or event.descr.empty? -%><%= event.descr %><br/><% end -%>
+            <br/>
+            <% end -%>
+            <% else -%>
+            <h2>No events currently planned</h2>
+            <% end -%>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="notes_col">
+  <div class="notes_col_section_envelope">
+    <div class="shadow">
+      <div class="section" id="info_section">
+        <div class="section_title" id="info_section_title">Info</div>
+        <div class="content">
+          <p class="notes-text"><%= @event_info %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notes_col_section_content_item_img">
+    <div class="shadow">
+      <div class="section">
+        <div class="item_img_content">
+          <img class="item_img" src="/images/grape_leaves.jpg" alt="Red Wine" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

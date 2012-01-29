@@ -1,0 +1,20 @@
+--- 
+:daemon: true
+:cwd: /mnt/hgfs/linux-share/sites/nv/trunk
+:includes: 
+- mongrel
+:log_file: log/mongrel.log
+:group: 
+:config_script: 
+:environment: development
+:pid_file: log/mongrel.pid
+:num_processors: 1024
+:debug: false
+:docroot: public
+:user: 
+:timeout: 0
+:host: 0.0.0.0
+:mime_map: 
+:config_file: 
+:prefix: 
+:port: 3000

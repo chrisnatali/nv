@@ -1,0 +1,17 @@
+1	home_info	<b>Tasting Room Hours</b><br/>\
+Mon-Fri 10am-4pm<br/>\
+Sat-Sun 10am-6pm
+2	wine_info	<b>Pricing</b><br/>\
+Prices are per 750ml bottle<br/>\
+7% NJ Sales Tax<br/>\
+<br/>\
+<b>Discounts</b><br/>\
+10% 1-3 cases<br/>\
+20% 4-5 cases<br/>\
+25% 6+ cases<br/>\
+Cases can be mixed<br/>
+3	story_info	<b>Wine Information</b><br/>\
+Search for "New Jersey" Wine and you'll find a ton of information, like this <a href="http://www.state.nj.us/agriculture/divisions/md/news/wine.html">article</a> by the NJ Dept of Agriculture.  The wikipedia entry for <a href="http://en.wikipedia.org/wiki/Wine">wine</a> is informative.  The UC Davis program in <a href="http://wineserver.ucdavis.edu/">Viticulture and Enology</a> is top notch.
+4	event_info	<b>General Event Info</b><br/>\
+Events are hosted on the Natali Vineyards Farm.  See <a href="/main/location">location</a> for directions.<br />\
+Admission is free.<br />

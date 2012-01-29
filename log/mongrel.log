@@ -1,0 +1,98 @@
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/tcphack.rb:12:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/tcphack.rb:12:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:93:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:93:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:139:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:139:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/tcphack.rb:12:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/tcphack.rb:12:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:93:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:93:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:139:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:139:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.cache is deprecated, use Gem::source_index. It will be removed on or after 2011-08-01.
+Gem.cache called from /home/chris/src/nv/config/boot.rb:26.
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems.rb:1154.
+NOTE: Gem::SourceIndex#search is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#search called from /home/chris/src/nv/config/boot.rb:26.
+/home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:Warning: Gem::SourceIndex#search support for String patterns is deprecated, use #find_name
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.

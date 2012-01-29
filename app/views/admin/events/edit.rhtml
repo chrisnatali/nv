@@ -1,0 +1,9 @@
+<h1>Editing event</h1>
+
+<form action='/admin/events/update/<%= @event.id %>' method='post'>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Update' %>
+</form>
+
+<%= link_to 'Show', :action => 'show', :id => @event %> |
+<%= link_to 'Back', :action => 'list' %>

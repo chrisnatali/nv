@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Natali Vineyards Admin</title>
+    <%= stylesheet_link_tag "common" %>
+    <%= stylesheet_link_tag "admin" %>
+    <%= stylesheet_link_tag "desktop", :media => "screen" %>
+    <%= stylesheet_link_tag "handheld", :media => "handheld" %>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  </head>
+  <body>
+    <div id="outer">
+      <div id="header">
+        <img src="/images/nv_banner.jpg" alt="Natali Vineyards" />
+      </div>
+      <div id="horizontal_nav">
+        <ul>
+          <li>
+            <a class="nav_link" href="/admin/summary">Summary</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/admin/tags/list">Tags</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/admin/products/list">Products</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/admin/events/list">Events</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/admin/users/list">Users</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/admin/notes/list">Notes</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/admin/login/logout">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <div id="main">
+        <% if flash[:notice] -%>
+        <div id="notice"><%= flash[:notice] %></div>
+        <% end -%>
+        <%= @content_for_layout %>
+      </div>
+      <!-- end of main content -->
+      <div id="footer">
+        <p>
+          <div>Natali Vineyards, L.L.C.</div>
+          <div>221 North Delsea Drive (North Route 47)</div>
+          <div>Cape May Courthouse, NJ</div>
+          <div>08210</div>
+          <div>Phone:  (609) 465-0075</div>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

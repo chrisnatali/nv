@@ -1,0 +1,36 @@
+<%= stylesheet_link_tag "lightbox" %>
+<%= javascript_include_tag "prototype", "effects", "builder", "lightbox" %>
+<div id="simple_col">
+  <div class="main_col_section_envelope" id="gallery_section">
+    <div class="main_col_section_content" id="home_section_main">
+      <div class="shadow">
+        <div class="section">
+          <div class="section_title" id="gallery_section_title">Gallery</div>
+          <div class="content">
+            <h2>Natali Vineyards Photo Gallery<br />
+            </h2>
+	    <form action="/main/gallery" method="post">
+	      <input name="search_text" size="15" type="text"/>
+	      <input type="submit" value="Search"/>
+	    </form>
+            <div style="padding:10px;"></div>
+	    <% for photo in @photos %>
+              <div class="gallery_section_content_item_img">
+                <div class="shadow">
+                  <div class="section">
+                    <div class="item_img_content">
+                     <a href="<%= photo.image_link %>" rel="lightbox[results]" title="<%=h photo.title %>" >
+                      <img src="<%= photo.thumb_link %>" alt="<%=h photo.title %>" title="<%=h photo.title %>" class="gallery_item_img" style="border:0px">
+                     </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+            <div style="clear:both;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<h1>Site Statistics</h1>
+
+Total Hits: <%= @total_hits %><br/>
+Total Unique IP Hits: <%= @total_uniq_hits %><br/>
+<br/>
+<table>
+  <tbody>
+    <th>Day (yyyy-mm-dd)</th>
+    <th>Total hits</th>
+    <th>Unique IP hits</th>
+    <% @days_hits.sort{|a, b| b <=> a}.each do |day, vals| %>
+    <tr>
+      <td><%= day  %></td>
+      <td><%= vals[:ct] %></td>
+      <td><%= vals[:uniq_ct] %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

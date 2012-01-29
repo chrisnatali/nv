@@ -1,0 +1,9 @@
+<h1>Editing note</h1>
+
+<form action='/admin/notes/update/<%= @note.id %>' method='post'>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Update' %>
+</form>
+
+<%= link_to 'Show', :action => 'show', :id => @note %> |
+<%= link_to 'Back', :action => 'list' %>

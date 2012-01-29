@@ -1,0 +1,15 @@
+Natali Vineyards website (www.natalivineyards.com)
+
+Dependencies: Ruby, Rails, MySQL
+
+Setup:
+- Install Ruby (v1.8.7), Rails (v2.0.2) and MySQL
+- Install required gems (mongrel and will_paginate)
+- Create db via db/create.sql
+- Optionally load data via db/load_sample_data.sql
+- Modify config/mongrel.yml to suit your environment
+- Run via mongrel_rails start -C config/mongrel.yml
+- Stop via mongrel_rails stop
+
+TODO:
+- Add payment processing

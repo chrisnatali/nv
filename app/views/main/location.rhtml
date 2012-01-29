@@ -1,0 +1,79 @@
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=<%= @api_key %>" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+        var icon = new GIcon(G_DEFAULT_ICON);
+        //icon.image = "<%= @aerial_set.thumb_link_medium %>";
+        icon.iconSize = new GSize(15, 25);
+        icon.shadowSize = new GSize(25, 25);
+        //icon.iconAnchor = new GPoint(6,20);
+        icon.infoWindowAnchor = new GPoint(5, 18);
+        var nataliVineyardsLatLon = new GLatLng(39.125500, -74.860500);
+        var nvOffCenter = new GLatLng(39.198200, -74.860500);
+
+        var marker = new GMarker(nataliVineyardsLatLon, icon);
+        map.setCenter(nvOffCenter, 13);
+        map.addControl(new GSmallMapControl());
+                 //map.addControl(new GMapTypeControl());
+        map.addOverlay(marker);
+        map.setZoom(10);
+        marker.openInfoWindowHtml("<div><img height='180' width='240' src='<%= @aerial_set.thumb_link_medium %>' alt='<%=h @aerial_set.title %>' /></div><%= @aerial_set.title%>");
+        GEvent.addListener(marker, "click", function() { marker.openInfoWindowHtml("<div><img height='180' width='240' src='<%= @aerial_set.thumb_link_medium %>' alt='<%=h @aerial_set.title %>' /></div><%= @aerial_set.title%>");});
+       }
+     }
+     //This doesn't work, so we have an extra body tag with this that works for now
+     //body.onload=load();
+     //body.onunload=GUnload();
+     //]]>
+    </script>
+    <body onload="load();" onunload="GUnload();"/>
+    <div id="main_col">
+      <div class="main_col_section_envelope" id="location_section">
+        <div class="main_col_section_content" id="home_section_main">
+          <div class="shadow">
+            <div class="section">
+              <div class="section_title" id="location_section_title">Location</div>
+              <div class="content">
+                <h1>Our Location</h1>
+                <p>Natali Vineyards is located at 221 North Delsea Drive (North Route 47) in Cape May Courthouse (Middle Township), NJ.  We are on the Delaware Bay side, near milepost 12.9.  At the "Natali Vineyards" sign, turn into our driveway.  The Winery is about 800 feet up the driveway on the left.</p>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="notes_col">
+      <div class="notes_col_section_envelope">
+        <div class="shadow">
+          <div class="section" id="directions_section">
+            <div class="section_title" id="directions_section_title">Get Directions</div>
+            <div class="content">
+              <h2>Get Directions</h2>
+              <form action="http://maps.google.com/maps" method="get">
+                <p><label for="saddr">Start Address</label>
+                  <input type="text" name="saddr" id="saddr" value="" />
+                  <input type="submit" value="Go" />
+                  <input type="hidden" name="daddr" value="39.125500, -74.860500 (Natali Vineyards)" />
+                  <input type="hidden" name="hl" value="en" /></p>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="simple_col">
+      <div class="main_col_section_content_ex" id="map_section_main_ex">
+        <div class="shadow">
+          <div class="section">
+            <div class="content">
+              <div class="main_col_map" id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>

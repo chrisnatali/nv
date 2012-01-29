@@ -1,0 +1,17 @@
+<%= error_messages_for 'user' %>
+<!-- [form:user]-->
+<table>
+  <tr>
+    <td>User name:</td>
+    <td><%= text_field("user", "name") %></td>
+  </tr>
+  <tr>
+    <td>Password:</td>
+    <td><%= password_field("user", "password") %></td>
+  </tr>
+  <tr>
+    <td>Role:</td>
+    <td><%= text_field("user", "role") %></td>
+  </tr>
+</table>
+<!--[eoform:user]-->

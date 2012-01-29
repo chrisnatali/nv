@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Natali Vineyards - a New Jersey Vineyard and Winery</title>
+    <%= stylesheet_link_tag "common" %>
+    <%= stylesheet_link_tag "desktop", :media => "screen" %>
+    <%= stylesheet_link_tag "handheld", :media => "handheld" %>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="google-site-verification" content="rAu6NTv6-Ew2S_lFG4v7xSL5VsE3vZQ0EGsEZRQvfpQ" />
+  </head>
+  <body>
+    <div id="outer">
+      <div id="header">
+        <img src="/images/nv_banner.jpg" alt="Natali Vineyards" />
+      </div>
+      <div id="horizontal_nav">
+        <ul>
+          <li>
+            <a class="nav_link" href="/main/index">Home</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/main/wine">Wine</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/main/location">Location</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/main/story">Story</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/main/events">Events</a>
+          </li>
+          <li>
+            <a class="nav_link" href="/main/gallery">Gallery</a>
+          </li>
+        </ul>
+      </div>
+      <div id="main">
+        <%= @content_for_layout %>
+      </div>
+      <!-- end of main content -->
+      <div id="footer">
+        <p>
+          <div>Natali Vineyards, L.L.C.</div>
+          <div>221 North Delsea Drive (North Route 47)</div>
+          <div>Cape May Courthouse, NJ</div>
+          <div>08210</div>
+          <div>Phone:  (609) 465-0075</div>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

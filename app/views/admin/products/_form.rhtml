@@ -1,0 +1,24 @@
+<%= error_messages_for 'product' %>
+
+<!--[form:product]-->
+<p><label for="product_name">Name</label><br/>
+<%= text_field 'product', 'name'  %></p>
+
+<p><label for="product_descr">Descr</label><br/>
+<%= text_area 'product', 'descr'  %></p>
+
+<p><label for="product_price">Price</label><br/>
+<%= text_field 'product', 'price'  %></p>
+
+<% for tag in @tags %>
+        <input type="checkbox"
+         id="<%=tag.id%>"
+         name="tag_ids[]"
+         value="<%=tag.id %>"
+         <%if @product.tags.include? tag %>checked="checked"<%end%>
+        >
+        <%=tag.name%>
+<% end %>
+
+<!--[eoform:product]-->
+

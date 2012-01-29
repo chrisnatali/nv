@@ -1,0 +1,44 @@
+# Logfile created on Sat Jan 28 19:03:55 -0500 2012
+
+Processing MainController#index (for 127.0.0.1 at 2012-01-28 19:03:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--7086fce3ee0bb9655a86cf03f2c694346c12cf03
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mNote Columns (0.000454)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.000192)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 0.00750 (133 reqs/sec) | Rendering: 0.00254 (33%) | DB: 0.00075 (9%) | 200 OK [http://127.0.0.1/]
+
+
+Processing MainController#wine (for 127.0.0.1 at 2012-01-28 19:04:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--7086fce3ee0bb9655a86cf03f2c694346c12cf03
+  Parameters: {"action"=>"wine", "controller"=>"main"}
+  [4;35;1mTag Columns (0.001121)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (0.000240)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mProduct Load (0.000350)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mNote Columns (0.000944)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.000209)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;36;1mProduct Columns (0.000338)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 0.03464 (28 reqs/sec) | Rendering: 0.02473 (71%) | DB: 0.00320 (9%) | 200 OK [http://127.0.0.1/main/wine]
+
+
+Processing MainController#gallery (for 127.0.0.1 at 2012-01-28 19:04:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--7086fce3ee0bb9655a86cf03f2c694346c12cf03
+  Parameters: {"action"=>"gallery", "controller"=>"main"}
+Rendering template within layouts/main
+Rendering main/gallery
+Completed in 0.60410 (1 reqs/sec) | Rendering: 0.00194 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/main/gallery]
+
+
+Processing MainController#events (for 127.0.0.1 at 2012-01-28 19:04:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--7086fce3ee0bb9655a86cf03f2c694346c12cf03
+  Parameters: {"action"=>"events", "controller"=>"main"}
+  [4;35;1mEvent Load (0.000323)[0m   [0mSELECT * FROM `events` WHERE (date >= '2012-01-28') ORDER BY date asc[0m
+  [4;36;1mNote Columns (0.000747)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.000099)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'event_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/events
+Completed in 0.00885 (113 reqs/sec) | Rendering: 0.00316 (35%) | DB: 0.00117 (13%) | 200 OK [http://127.0.0.1/main/events]

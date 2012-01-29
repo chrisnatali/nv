@@ -1,0 +1,10 @@
+<h1>Editing tag</h1>
+
+
+<form action='/admin/tags/update/<%= @tag.id %>' method='post'>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Update' %>
+</form>
+
+<%= link_to 'Show', :action => 'show', :id => @tag %> |
+<%= link_to 'Back', :action => 'list' %>

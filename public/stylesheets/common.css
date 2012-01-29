@@ -1,0 +1,150 @@
+body {
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+
+}
+
+h1 {
+        font-size: 17px;
+}
+
+h2 {
+        font-size: 15px;
+}
+
+#header{
+        border-bottom: 1px solid #CCCCCC;
+        width: 100%;
+}
+
+#outer {
+
+}
+
+#main_col{
+        height: 100%;
+}
+
+#notes_col{
+        height: auto;
+        padding: 8px;
+        padding-bottom: 40px;
+        background-color: #EEEEEE;
+        border: 1px solid #CCCCCC;
+}
+
+#horizontal_nav {
+        height: 30px;
+        width: 100%;
+        border-top: solid #AAAAAA 1px;
+        border-bottom: solid #AAAAAA 1px;
+        background-color: #669933;
+        border-spacing: 0px;
+}
+
+#horizontal_nav ul {
+        margin: 0px;
+        padding: 0px;
+        line-height: 30px;
+        white-space: nowrap;
+}
+
+#horizontal_nav li {
+        list-style-type: none;
+        display: inline;
+        padding: 7px 10px;
+}
+
+#footer{
+        border-top: 1px solid #CCCCCC;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:11px;
+        color: #888888;
+        clear: both;
+}
+
+.main_col_section_envelope {
+        top: 5px;
+        left: 5px;
+}
+
+.notes-text {
+        font-size: 80%;
+}
+
+.notes_col_section_envelope {
+
+}
+
+.shadow{
+        background-color: #BBBBBB; /*shadow color*/
+        color: inherit;
+        margin-left: 4px;
+        margin-top: 4px;
+}
+
+.section{
+        bottom: 4px;
+        right: 4px;
+    font-size: 14px;
+        border: 1px solid #999999;
+}
+
+.section_title {
+        height: 17px;
+        background-color: #669933;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px 3px;
+        font-size: 11px;
+        color: #FFF;
+}
+
+.content{
+        background-color: #fff; /*background color of content*/
+        color: #000; /*text color of content*/
+        padding: 5px 8px;
+}
+
+.footnote{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:11px;
+        color: #555555;
+}
+
+.nav_link {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        font-weight: bold;
+        color: #FFF;
+        text-decoration: none;
+}
+
+.main_col_img {
+
+}
+
+.price_list {
+        font-size: 12px;
+}
+
+.price_list th {
+        padding-right: 40px;
+}
+
+.price_list td {
+        padding: 4px;
+}
+
+.item_img {
+        width: 140px;
+        padding: 10px;
+}
+
+.item_img_content{
+        background-color: #fff; /*background color of content*/
+        color: #000; /*text color of content*/
+        padding: 2px 4px;
+}
+
+.gallery_item_img {
+}

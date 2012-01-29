@@ -1,0 +1,31 @@
+<h1>Listing users</h1>
+
+<table>
+  <tr>
+  <% for column in User.content_columns %>
+        <% if column.name != "hashed_pwd" %>
+    <th><%= column.human_name %></th>
+        <% end %>
+  <% end %>
+    <th>tags</th>
+  </tr>
+
+<% for user in @users %>
+  <tr>
+  <% for column in User.content_columns %>
+        <% if column.name != "hashed_pwd" %>
+    <td><%=h user.send(column.name) %></td>
+        <% end %>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => user %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => user %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => user }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= will_paginate @users %>
+
+<br />
+
+<%= link_to 'New user', :action => 'new' %>

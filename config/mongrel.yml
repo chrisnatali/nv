@@ -1,0 +1,21 @@
+--- 
+:daemon: true
+:log_file: log/mongrel.log
+:debug: false
+:group: 
+:user: 
+:pid_file: log/mongrel.pid
+:includes: 
+- mongrel
+# set to development or test as needed
+:environment: development
+:config_script: 
+# set to 0.0.0.0 in dev/test
+:host: 127.0.0.1
+:docroot: public
+:num_processors: 1024
+:port: "3000"
+:mime_map: 
+:prefix: 
+:timeout: 0
+:cwd: /home/chris/src/nv

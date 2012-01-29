@@ -1,0 +1,35 @@
+<div id="simple_col">
+  <div class="main_col_section_envelope" id="gallery_section">
+    <div class="main_col_section_content" id="home_section_main">
+      <div class="shadow">
+        <div class="section">
+          <div class="section_title" id="gallery_section_title">Gallery</div>
+          <div class="content" position="relative">
+            <h2>Natali Vineyards Photo Gallery<br />
+            </h2>
+	    <form action="/main/gallery" method="post">
+	      <input name="search_text" size="15" type="text"/>
+	      <input type="submit" value="Search"/>
+	    </form>
+	    <% for photoset in @photosets %>
+              <div class="photoset">
+                <div class="shadow">
+                  <div class="section">
+                    <div class="item_img_content">
+                     <img src="<%= photoset.thumb_link %>" alt="<%=h photoset.title %>" title="<%=h photoset.title %>" class="gallery_item_img" style="border:0px">
+                     <div style="font-weight:bold"><%= photoset.title %></div>
+                     <div><%=h photoset.photos_num %>
+                     <a href="gallery/<%= photoset.id %>">photos</a>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+            <div style="clear:both;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

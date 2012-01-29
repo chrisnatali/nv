@@ -1,0 +1,3 @@
+Create missing tests
+Implement all tests (some created by generates, not implemented)
+Run "rake appdoc" to generate API documentation for your models and controllers.
