@@ -83,13 +83,44 @@ class SortingTest < Test::Unit::TestCase
     @sorting.add :a
     assert @sorting.sorts_by_method?
 
-    #test mixed sql/method sorting: true
-    @sorting.add :b
-    assert @sorting.sorts_by_method?
-
+    #test mixed sql/method sorting: raise error
+    assert_raise ArgumentError do
+      @sorting.add :b
+    end
+    
     #test pure sql sorting: false
     @sorting.clear
     @sorting.add :b
     assert !@sorting.sorts_by_method?
+  end
+
+  def test_build_order_clause
+    assert @sorting.clause.nil?
+
+    @sorting << [:a, 'desc']
+    @sorting << [:b, 'asc']
+
+    assert_equal '"model_stubs"."a" DESC, "model_stubs"."b" ASC', @sorting.clause
+  end
+  
+  def test_set_default_sorting_with_simple_default_scope
+    model_stub_with_default_scope = ModelStub.clone
+    model_stub_with_default_scope.class_eval { default_scope :order => 'a' }
+    @sorting.set_default_sorting model_stub_with_default_scope
+    
+    assert @sorting.sorts_on?(:a)
+    assert_equal 'ASC', @sorting.direction_of(:a)
+    assert_nil @sorting.clause
+  end
+
+  def test_set_default_sorting_with_complex_default_scope
+    model_stub_with_default_scope = ModelStub.clone
+    model_stub_with_default_scope.class_eval { default_scope :order => 'a DESC, players.last_name ASC' }
+    @sorting.set_default_sorting model_stub_with_default_scope
+    
+    assert @sorting.sorts_on?(:a)
+    assert_equal 'DESC', @sorting.direction_of(:a)
+    assert_equal 1, @sorting.instance_variable_get(:@clauses).size
+    assert_nil @sorting.clause
   end
 end

@@ -42,3 +42,481 @@ Processing MainController#events (for 127.0.0.1 at 2012-01-28 19:04:05) [GET]
 Rendering template within layouts/main
 Rendering main/events
 Completed in 0.00885 (113 reqs/sec) | Rendering: 0.00316 (35%) | DB: 0.00117 (13%) | 200 OK [http://127.0.0.1/main/events]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+/!\ FAILSAFE /!\  Wed Jan 09 12:34:29 -0500 2013
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on '127.0.0.1' (111)
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `real_connect'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `connect'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/query_cache.rb:9:in `cache'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/query_cache.rb:28:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rack-1.1.4/lib/rack/head.rb:9:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rack-1.1.4/lib/rack/methodoverride.rb:24:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/params_parser.rb:15:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/failsafe.rb:26:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rack-1.1.4/lib/rack/lock.rb:11:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rack-1.1.4/lib/rack/lock.rb:11:in `synchronize'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rack-1.1.4/lib/rack/lock.rb:11:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/reloader.rb:34:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+    /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:39:33) [GET]
+  [4;35;1mNote Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (14.9ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 59ms (View: 40, DB: 16) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:39:46) [GET]
+  [4;36;1mNote Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:42:44) [GET]
+  [4;35;1mNote Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-09 12:42:59) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-09 12:43:17) [GET]
+
+ActionController::RoutingError (No route matches "/wine" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:44:19) [GET]
+  [4;36;1mNote Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.0ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/main/index]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#wine (for 127.0.0.1 at 2013-01-09 12:44:27) [GET]
+  [4;35;1mTag Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (21.3ms)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mProduct Load (5.8ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mNote Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;36;1mProduct Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 41ms (View: 4, DB: 29) | 200 OK [http://127.0.0.1/main/wine]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#wine (for 127.0.0.1 at 2013-01-09 12:47:09) [GET]
+  [4;35;1mTag Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (0.1ms)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mNote Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;36;1mProduct Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 40ms (View: 8, DB: 3) | 200 OK [http://127.0.0.1/main/wine]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#wine (for 127.0.0.1 at 2013-01-09 12:47:13) [GET]
+  [4;36;1mTag Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` [0m
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mNote Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;35;1mProduct Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 17ms (View: 2, DB: 4) | 200 OK [http://127.0.0.1/main/wine]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:47:19) [GET]
+  [4;35;1mNote Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:03) [GET]
+  [4;35;1mNote Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:09) [GET]
+  [4;36;1mNote Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:10) [GET]
+  [4;35;1mNote Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:10) [GET]
+  [4;36;1mNote Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.0ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:10) [GET]
+  [4;35;1mNote Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:27) [GET]
+  [4;36;1mNote Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://127.0.0.1/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:58:37) [GET]
+  [4;35;1mNote Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.2ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/main/index]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing Admin::SummaryController#index (for 127.0.0.1 at 2013-01-09 12:59:17) [GET]
+Redirected to http://127.0.0.1:3000/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/admin]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing Admin::LoginController#index (for 127.0.0.1 at 2013-01-09 12:59:24) [GET]
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/login
+Rendering admin/login/index
+Completed in 49ms (View: 20, DB: 2) | 200 OK [http://127.0.0.1/admin/login]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 12:59:46) [GET]
+  [4;35;1mNote Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/main/index]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/middleware_stack.rb:72)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 14:36:03) [GET]
+  [4;35;1mNote Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/main/index]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 14:39:40) [GET]
+  [4;35;1mNote Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 14:39:52) [GET]
+  [4;36;1mNote Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#wine (for 127.0.0.1 at 2013-01-09 14:44:21) [GET]
+  [4;35;1mTag Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (0.1ms)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mNote Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;36;1mProduct Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 20ms (View: 8, DB: 2) | 200 OK [http://127.0.0.1/main/wine]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 14:44:41) [GET]
+  [4;36;1mNote Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 11ms (View: 7, DB: 2) | 200 OK [http://127.0.0.1/main/story]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 14:50:21) [GET]
+  [4;35;1mNote Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/main/story]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 14:50:28) [GET]
+  [4;36;1mNote Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/main/story]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 14:50:28) [GET]
+  [4;35;1mNote Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/main/story]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 14:50:28) [GET]
+  [4;36;1mNote Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/main/story]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 14:50:44) [GET]
+  [4;35;1mNote Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 10ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/main/story]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 14:50:49) [GET]
+  [4;36;1mNote Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.0ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#wine (for 127.0.0.1 at 2013-01-09 14:50:53) [GET]
+  [4;35;1mTag Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mNote Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;36;1mProduct Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 16ms (View: 6, DB: 2) | 200 OK [http://127.0.0.1/main/wine]
+DEPRECATION WARNING: ActiveRecord::Base.verification_timeout= has been deprecated and no longer has any effect. Please remove all references to verification_timeout=. (called from verification_timeout= at /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activerecord-2.3.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:108)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#index (for 127.0.0.1 at 2013-01-09 15:49:26) [GET]
+  [4;35;1mNote Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'home_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/main]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#wine (for 127.0.0.1 at 2013-01-09 15:49:30) [GET]
+  [4;36;1mTag Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.1ms)[0m   [0mSELECT * FROM `tags` [0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mNote Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `notes`[0m
+  [4;36;1mNote Load (0.1ms)[0m   [0;1mSELECT * FROM `notes` WHERE (`notes`.`name` = 'wine_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/wine
+  [4;35;1mProduct Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 15ms (View: 4, DB: 2) | 200 OK [http://127.0.0.1/main/wine]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#location (for 127.0.0.1 at 2013-01-09 15:49:31) [GET]
+Rendering template within layouts/main
+Rendering main/location
+Completed in 714ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/main/location]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#story (for 127.0.0.1 at 2013-01-09 15:49:32) [GET]
+  [4;36;1mNote Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.1ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'story_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/story
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/main/story]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options. (called from /home/chris/src/nv/app/controllers/application_controller.rb:6)
+
+
+Processing MainController#events (for 127.0.0.1 at 2013-01-09 15:49:36) [GET]
+  [4;35;1mEvent Load (19.4ms)[0m   [0mSELECT * FROM `events` WHERE (date >= '2013-01-09') ORDER BY date asc[0m
+  [4;36;1mNote Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `notes`[0m
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM `notes` WHERE (`notes`.`name` = 'event_info') LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/events
+Completed in 42ms (View: 12, DB: 21) | 200 OK [http://127.0.0.1/main/events]

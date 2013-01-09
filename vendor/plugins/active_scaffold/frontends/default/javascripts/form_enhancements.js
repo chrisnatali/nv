@@ -10,7 +10,12 @@ TextFieldWithExample.prototype = {
 		this.defaultText = defaultText;
 		this.createHiddenInput();
 
+		if (options.focus) this.input.focus();
 		this.checkAndShowExample();
+		if (options.focus) {
+			this.input.selectionStart = 0;
+			this.input.selectionEnd = 0;
+		}
 
 		Event.observe(this.input, "blur", this.onBlur.bindAsEventListener(this));
 		Event.observe(this.input, "focus", this.onFocus.bindAsEventListener(this));
@@ -39,9 +44,7 @@ TextFieldWithExample.prototype = {
 		this.checkAndShowExample();
 	},
 	onFocus: function(event) {
-		if (this.exampleShown()) {
-		    this.removeExample();
-	  	}
+		this.removeExample();
 	},
 	onClick: function(event) {
 		this.removeExample();
@@ -57,7 +60,7 @@ TextFieldWithExample.prototype = {
 			Element.addClassName(this.input, this.options.exampleClassName);
 		}
 	},
-  removeExample: function() {
+	removeExample: function() {
 		if (this.exampleShown()) {
 			this.input.value = '';
 			this.input.name = this.name;
@@ -87,3 +90,28 @@ Form.enable = function(form) {
       Element.removeClassName(element, 'disabled');
     }
   }
+
+DraggableLists = Class.create({
+  initialize: function(list) {
+    list = $(list).addClassName('draggable-list');
+    var list_selected = list.cloneNode(false).addClassName('selected');
+    list_selected.id += '_seleted';
+    list.select('input[type=checkbox]').each(function(item) {
+      var li = item.up('li');
+      li.down('label').htmlFor = null;
+      new Draggable(li, {revert: 'failure', ghosting: true});
+      if (item.checked) list_selected.insert(li.remove());
+    });
+    list.insert({after: list_selected});
+    Droppables.add(list, {hoverclass: 'hover', containment: list_selected.id, onDrop: this.drop_to_list});
+    Droppables.add(list_selected, {hoverclass: 'hover', containment: list.id, onDrop: this.drop_to_list});
+    list.undoPositioned(); // undo positioned to fix dragging from elements with overflow auto
+    list_selected.undoPositioned();
+  },
+
+  drop_to_list: function(draggable, droppable, event) {
+    droppable.insert(draggable.remove());
+    draggable.setStyle({left: '0px', top: '0px'});
+    draggable.down('input').checked = droppable.hasClassName('selected');
+  }
+});

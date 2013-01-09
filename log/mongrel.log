@@ -96,3 +96,1636 @@ Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/
 ** Mongrel 1.1.5 available at 127.0.0.1:3000
 ** Writing PID file to log/mongrel.pid
 ** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.cache is deprecated, use Gem::source_index. It will be removed on or after 2011-08-01.
+Gem.cache called from /home/chris/src/nv/config/boot.rb:26.
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems.rb:1154.
+NOTE: Gem::SourceIndex#search is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#search called from /home/chris/src/nv/config/boot.rb:26.
+/home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:Warning: Gem::SourceIndex#search support for String patterns is deprecated, use #find_name
+Your config/boot.rb is outdated: Run "rake rails:update".
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:602:in `send': undefined method `cache_template_extensions=' for ActionView::Base:Class (NoMethodError)
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:602:in `initialize_framework_settings'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:601:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:601:in `initialize_framework_settings'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:598:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:598:in `initialize_framework_settings'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:155:in `process'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `send'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `run'
+	from /home/chris/src/nv/config/environment.rb:13
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/core_ext/module/aliasing.rb:33:in `alias_method': undefined method `options_with_prefix' for class `ActionView::Helpers::InstanceTag' (NameError)
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/core_ext/module/aliasing.rb:33:in `alias_method_chain'
+	from /home/chris/src/nv/vendor/plugins/active_scaffold/lib/extensions/name_option_for_datetime.rb:30
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:182:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:547:in `new_constants_in'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:182:in `require'
+	from /home/chris/src/nv/vendor/plugins/active_scaffold/environment.rb:63
+	from /home/chris/src/nv/vendor/plugins/active_scaffold/environment.rb:63:in `each'
+	from /home/chris/src/nv/vendor/plugins/active_scaffold/environment.rb:63
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:182:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:547:in `new_constants_in'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:182:in `require'
+	from /home/chris/src/nv/vendor/plugins/active_scaffold/init.rb:4:in `evaluate_init_rb'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/plugin.rb:158:in `evaluate_init_rb'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/plugin.rb:154:in `evaluate_init_rb'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/plugin.rb:48:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/plugin/loader.rb:38:in `load_plugins'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/plugin/loader.rb:37:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/plugin/loader.rb:37:in `load_plugins'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:369:in `load_plugins'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:165:in `process'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `send'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `run'
+	from /home/chris/src/nv/config/environment.rb:13
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 09 12:39:33 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:39:46 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:42:44 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:42:59 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:43:17 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:44:19 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:44:27 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 09 12:47:09 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:47:13 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:47:19 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 09 12:58:03 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:58:09 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:58:10 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:58:10 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:58:10 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:58:27 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:58:37 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:59:17 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:108:in `send_cookies'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:136:in `out'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:65:in `start'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:135:in `out'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:81:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:59:24 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:108:in `send_cookies'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:136:in `out'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:65:in `start'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/cgi.rb:135:in `out'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:81:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 12:59:46 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 09 14:36:03 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 09 14:39:40 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:39:52 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:44:21 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:44:41 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:50:21 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:50:28 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:50:28 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:50:28 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 09 14:50:44 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:50:49 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+Wed Jan 09 14:50:53 -0500 2013: Error calling Dispatcher.dispatch #<NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split>
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/cgi_process.rb:52:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/actionpack-2.3.15/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load_without_new_constant_marking': /home/chris/src/nv/config/initializers/mongrel.rb:44: syntax error, unexpected ')' (SyntaxError)
+/home/chris/src/nv/config/initializers/mongrel.rb:60: invalid regular expression; there's no previous pattern, to which '{' would define cardinality at 21: /
+        env.update({
+          rack.version => [0,1],
+          rack.input => cgi.stdinput,
+          rack.errors => ,
+          rack.multithread => false,
+          rack.multiprocess => true,
+          rack.run_once => false,
+          rack.url_scheme => [yes, on, 1].include?(env[HTTPS]) ? https : http
+        })
+        env[QUERY_STRING] ||= 
+        env[HTTP_VERSION] ||= env[SERVER_PROTOCOL]
+        env[REQUEST_PATH] ||= /
+/home/chris/src/nv/config/initializers/mongrel.rb:62: syntax error, unexpected ',', expecting kEND
+        status, headers, body = app.call(env)
+               ^
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:547:in `new_constants_in'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:622:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:176:in `process'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `send'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `run'
+	from /home/chris/src/nv/config/environment.rb:13
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load_without_new_constant_marking': /home/chris/src/nv/config/initializers/mongrel.rb:44: syntax error, unexpected ')' (SyntaxError)
+/home/chris/src/nv/config/initializers/mongrel.rb:82: syntax error, unexpected kEND, expecting $end
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:547:in `new_constants_in'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:622:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:176:in `process'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `send'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `run'
+	from /home/chris/src/nv/config/environment.rb:13
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load_without_new_constant_marking': /home/chris/src/nv/config/initializers/mongrel.rb:44: syntax error, unexpected ')' (SyntaxError)
+/home/chris/src/nv/config/initializers/mongrel.rb:81: syntax error, unexpected kEND, expecting $end
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:547:in `new_constants_in'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:622:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:176:in `process'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `send'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `run'
+	from /home/chris/src/nv/config/environment.rb:13
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+/home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load_without_new_constant_marking': /home/chris/src/nv/config/initializers/mongrel.rb:44: syntax error, unexpected ')' (SyntaxError)
+/home/chris/src/nv/config/initializers/mongrel.rb:82: syntax error, unexpected kEND, expecting $end
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:547:in `new_constants_in'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/activesupport-2.3.15/lib/active_support/dependencies.rb:171:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:622:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `each'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:621:in `load_application_initializers'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:176:in `process'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `send'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/initializer.rb:113:in `run'
+	from /home/chris/src/nv/config/environment.rb:13
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+	from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19:in `load'
+	from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Starting Rails with development environment...
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/rails-2.3.15/lib/rails/vendor_gem_source_index.rb:100.
+NOTE: Gem.available? is deprecated, use Specification::find_by_name. It will be removed on or after 2011-11-01.
+Gem.available? called from /home/chris/src/nv/config/initializers/mongrel.rb:1.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+NOTE: Gem::SourceIndex.from_installed_gems is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_installed_gems called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:109.
+NOTE: from_installed_gems(arg) is deprecated. From /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/deprecate.rb:62:in `send'
+NOTE: Gem::SourceIndex.from_gems_in is deprecated with no replacement. It will be removed on or after 2011-10-01.
+Gem::SourceIndex.from_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:50.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:67.
+NOTE: Gem::SourceIndex#spec_dirs= is deprecated, use Specification.dirs=. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#spec_dirs= called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:94.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:95.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /home/chris/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/chris/.rvm/gems/ruby-1.8.7-p352@nv/gems/gem_plugin-0.2.3/lib/gem_plugin.rb:112.
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to log/mongrel.pid
