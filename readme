@@ -3,7 +3,7 @@ Natali Vineyards website (www.natalivineyards.com)
 Dependencies: Ruby, Rails, MySQL
 
 Setup:
-- Install Ruby (v1.8.7), Rails (v2.0.2) and MySQL
+- Install Ruby (v1.8.7), Rails (v2.3.15) and MySQL
 - Install required gems (mongrel and will_paginate)
 - Create db via db/create.sql
 - Optionally load data via db/load_sample_data.sql
